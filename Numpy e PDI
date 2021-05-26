@@ -1,0 +1,20 @@
+
+neo = matrix.astype (np.float32)
+
+
+print("\nMatriz 800x800:\n")
+
+print(neo)
+
+                                                         # 2
+
+print("\n\nTipos de dados:",neo.dtype)
+
+print("\nValor máximo: ",np.max(matrix))
+
+print("\nValor mínimo: ",np.min(matrix))
+
+print("\nMédia: ".np.mean(matrix))
+
+print("\nVariância: ", np.var(matrix, ddof = 1))
+
